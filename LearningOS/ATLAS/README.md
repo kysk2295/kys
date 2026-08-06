@@ -24,32 +24,53 @@ ATLAS를 마치면 다음을 설명하고 적용할 수 있는 수준을 목표�
 
 ## 학습 방식
 
-각 Day는 약 3~4시간 분량으로 다음 흐름을 따릅니다.
+ATLAS의 Day는 처음부터 고정된 PDF를 읽는 방식이 아닙니다.
 
 ```text
-1. 오늘의 문제 상황
-2. 쉬운 개념 설명
-3. 그림/표로 구조 이해
-4. delayed-label-monitoring 실제 사례 연결
-5. 실패 사례 분석
-6. 실무/운영 연결
-7. 복습과 설명 연습
+ATLAS Day N 시작
+→ 채팅에서 초기 교재 생성
+→ 읽으면서 질문
+→ 쉬운 설명과 실제 프로젝트 사례 보강
+→ ATLAS Day N 완료
+→ 질문을 반영한 최종 교재
+→ PDF 생성
+→ GitHub에 Day 확정판 누적
+→ Data Analytics Journey Book에 편입
+```
+
+각 Day는 약 3~4시간 분량이며, 여러 Chapter로 나눠 웹/모바일에서 이어서 공부할 수 있습니다.
+
+```text
+오늘의 문제
+→ 가장 기초적인 배경
+→ 핵심 개념
+→ 그림/표
+→ delayed-label-monitoring 실제 사례
+→ 실패 사례
+→ 실무/운영 연결
+→ 복습
+→ 다음 Day 떡밥
 ```
 
 코드가 필요한 날도 있지만 ATLAS의 중심은 코드 암기가 아니라 **데이터와 모델을 의심하고 검증하는 사고방식**입니다.
 
-## 시작 명령
+## 주요 명령
 
 ```text
 ATLAS 시작
+ATLAS Day 1 시작
 ATLAS 계속
-ATLAS Day 9
+ATLAS Day 9 Chapter 2
 ATLAS 질문: PR-AUC와 양성률 관계가 이해 안 돼
 ATLAS 복습
 ATLAS 시험
 ATLAS 심화
 ATLAS 진도
+ATLAS Day 1 완료
 ATLAS PDF
+ATLAS Book
 ```
 
-전체 일정은 [`ROADMAP.md`](./ROADMAP.md)를 참고하세요.
+`ATLAS Day N 완료`가 정식 마감 명령입니다. 해당 Day에서 나온 질문과 보충 설명을 반영해 확정판을 만들고, 이후 PDF와 Book에 누적합니다.
+
+전체 일정은 [`ROADMAP.md`](./ROADMAP.md), 누적 책 상태는 [`BOOK.md`](./BOOK.md)를 참고하세요.
