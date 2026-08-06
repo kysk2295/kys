@@ -5,7 +5,7 @@ LearningOS는 여러 학습 과정을 동시에 운영하기 위해 프로젝트
 | 코드 | 이름 | 설명 |
 |---|---|---|
 | APEX | AI Paper Explorer | AI 기초부터 실제 논문 읽기까지 |
-| ATLAS | Data Analytics | 데이터 분석 기초부터 프로젝트까지 |
+| ATLAS | Data Analytics × ML × MLOps | 데이터 신뢰성, 검증, 모델 평가, 운영 모니터링까지 |
 | ORION | GitHub Explorer | 저장소 구조, 코드, 아키텍처 분석 |
 | TITAN | AI Agent Builder | Agent 설계, 도구 사용, 메모리, 평가, 구현 |
 | NOVA | Math Foundations | AI/데이터 분석에 필요한 수학 기초 |
@@ -33,6 +33,15 @@ APEX에서 Attention을 배움
 → NOVA에서 내적을 보충
 → LUMEN에서 Multi-Head Attention을 심화
 → TITAN에서 Agent의 LLM 모듈로 연결
+```
+
+ATLAS는 `delayed-label-monitoring`을 대표 실전 사례로 사용합니다.
+
+```text
+ATLAS에서 PIT와 leakage를 배움
+→ 실제 프로젝트의 공시 시차 분석과 연결
+→ walk-forward 검증 이해
+→ MLOps monitoring과 delayed label 문제로 확장
 ```
 
 즉, LearningOS는 여러 과정을 따로 암기하는 시스템이 아니라 서로 연결되는 개인 학습 지도입니다.
